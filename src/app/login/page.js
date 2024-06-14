@@ -3,8 +3,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import '../globals.css';
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,7 +36,7 @@ const Login = () => {
           </div>
           <button type="submit">Login</button>
         </form>
-        <p>Don't have an account? <Link href="/signup">Sign Up</Link></p>
+        <p>Dont have an account? <Link href="/signup">Sign Up</Link></p>
       </div>
     </div>
   );

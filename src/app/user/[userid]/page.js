@@ -10,7 +10,7 @@ export default function Page(props) {
             const userId = props.params.userid;
             const userData = users[userId - 1];
             setUser(userData);
-            // console.log(userData)
+            console.log(userData)
         };
 
         fetchData();

@@ -1,6 +1,7 @@
 'use client'
 import getUser from "../../../service/getuser";
 import Link from "next/link";
+
 export default async function Page(){
     const getuserlist = getUser()
     const users = await getuserlist;

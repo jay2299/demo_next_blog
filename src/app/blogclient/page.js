@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 
 
 
-function page() {
+function Page() {
     const [quotes, setQuotes] = useState([]);
 
     useEffect(() => {
@@ -35,4 +35,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
