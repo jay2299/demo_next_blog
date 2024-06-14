@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    background-color: #f7f8fc;
+}
+
+.error-wrapper {
+    text-align: center;
+}
+
+.error-wrapper h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.error-wrapper p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.error-wrapper a {
+    color: #0070f3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.error-wrapper a:hover {
+    color: #005bb5;
+}
